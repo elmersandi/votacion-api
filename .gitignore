@@ -1,0 +1,21 @@
+# 👉 Ignorar dependencias (ambos lados)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# 👉 Build y caché de Vite
+dist/
+.vite/
+
+# 👉 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 👉 Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
