@@ -31,6 +31,23 @@ Este proyecto es una aplicación web de votación desarrollada con:
 ## 🚀 Instrucciones para ejecutar
 
 ### 1. Clona el repositorio
-```bash
-git clone https://github.com/tu-usuario/votacion-api.git
-cd votacion-api
+
+- git clone https://github.com/tu-usuario/votacion-api.git
+- cd votacion-api
+
+
+### 2. Ejecuta el backend
+
+- cd backend
+- npm install
+- npm run dev
+- ✅ Verás: Servidor corriendo en http://localhost:5000
+
+- Asegúrate de que MongoDB esté encendido (local)
+
+### 3. Ejecuta el frontend
+
+- cd ../frontend
+- npm install
+- npm run dev
+- ✅ La app se abrirá en tu navegador en http://localhost:3000
